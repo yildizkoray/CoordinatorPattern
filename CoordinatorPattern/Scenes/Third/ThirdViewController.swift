@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ThirdViewController.swift
 //  CoordinatorPattern
 //
 //  Created by Koray Yildiz on 27.01.2020.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ThirdViewController: UIViewController, Storyboarded {
+
+  var coordinator: MainCoordinator?
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
   }
-
-
 }
-
